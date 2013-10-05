@@ -1,10 +1,10 @@
 FP radionica
 ============
 
-1. Uvod
--------
+1. Intro
+--------
 
-* fje - osnovne jedinici apstrakcije (umjesto objekata)
+* fje - osnovne jedinici apstrakcije (umjesto objekata) // SIDENOTE: wishful thinking programiranje
 * fp - metode manipuliranja fj-ama da bi bili iskoristive u raznim kontekstima
 
 * podaci kao apstrakcija
@@ -13,3 +13,19 @@ FP radionica
 
 * oop je samo tagirani podatak sa skupom funkcija koje ga mogu manipulirati
 
+
+2. First class FNs, closures
+----------------------------
+
+* fje se mogu passati okolo gdje god se mogu passati vrijednosti
+
+* funkcije se aplajaju na argumente 
+
+
+* closure - closes over; uzima vrijednosti iz vanjskih scopeova
+* moze simulirati enkapsulaciju (privatne varijable)
+* objects are poor mans objects i obrnutno
+
+
+3. HFn, funkcije koje grade funkcije
+------------------------------------
