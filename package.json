@@ -1,0 +1,10 @@
+{
+	"name": "playground",
+	"repository": {
+		"type" : "git",
+		"url" : "http://github.com/neektza/fpjs_workshop.git"
+	},
+	"dependencies": {
+		"underscore": ">= 1.5.0"
+	}
+}
