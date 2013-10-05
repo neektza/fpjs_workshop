@@ -1,3 +1,9 @@
+/*
+* --------------------------------
+* Fja osnovna jedinica apstrakcije
+* --------------------------------
+*/
+
 // Ex 1 - problem
 function parseAge(age) {
 	if (!_.isString(age)) throw new Error("Expecting a string");
@@ -44,4 +50,8 @@ function parseAge(age) {
 	return a;
 }
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+* -------------------------
+* First class FNs, Closures
+* -------------------------
+*/
